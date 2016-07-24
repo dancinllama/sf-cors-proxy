@@ -36,7 +36,8 @@ object Application extends Controller {
   }
 
   def proxy(path: String) = RequestWithInstance.async { request =>
-    val url = s"https://${request.instance}${request.uri}"
+    val sfOrg = request.headers.get("SalesforceURL");
+    val url = s"https://${sfOrg}${request.uri}"
     proxyRequestResponse(request, url)
   }
 
