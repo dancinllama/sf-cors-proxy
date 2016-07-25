@@ -43,7 +43,8 @@ object Application extends Controller {
 
   def loginProxy(path: String) = CorsAction {
     Action.async { request =>
-      val prodUrl = s"https://login.salesforce.com${request.uri}"
+      val sfOrg = request.headers.get("SalesforceURL");
+      val prodUrl = s"https://${sfOrg}"
       proxyRequestResponse(request, prodUrl).flatMap { result =>
         result.header.status match {
           case NOT_FOUND =>
