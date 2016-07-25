@@ -35,34 +35,18 @@ object Application extends Controller {
     }
   }
 
-  def proxy(path: String) = RequestWithInstance.async { request =>
-    val sfOrg = request.headers.get("SalesforceURL");
-    val url = s"https://${sfOrg}${request.uri}"
-    proxyRequestResponse(request, url)
-  }
-
   def loginProxy(path: String) = CorsAction {
     Action.async { request =>
       val sfOrg = request.headers.get("SalesforceURL");
-      val prodUrl = s"https://${sfOrg}"
+      val prodUrl = "https://${sfOrg}"
       proxyRequestResponse(request, prodUrl).flatMap { result =>
         result.header.status match {
-          case NOT_FOUND =>
-            val sandboxUrl = s"https://google.com${request.uri}"
-            proxyRequestResponse(request, sandboxUrl)
-          case _ =>
-            Future.successful(result)
+            case _ =>
+                Future.successful(result)
         }
       }
     }
   }
-
-  def options(path: String) = CorsAction {
-    Action { request =>
-      Ok.withHeaders(ACCESS_CONTROL_ALLOW_HEADERS -> Seq(AUTHORIZATION, CONTENT_TYPE, "Target-URL").mkString(","))
-    }
-  }
-
 }
 
 // Adds the CORS Header
