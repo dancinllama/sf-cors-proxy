@@ -48,7 +48,7 @@ object Application extends Controller {
       proxyRequestResponse(request, prodUrl).flatMap { result =>
         result.header.status match {
           case NOT_FOUND =>
-            val sandboxUrl = s"https://test.salesforce.com${request.uri}"
+            val sandboxUrl = s"https://google.com${request.uri}"
             proxyRequestResponse(request, sandboxUrl)
           case _ =>
             Future.successful(result)
