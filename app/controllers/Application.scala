@@ -38,7 +38,7 @@ object Application extends Controller {
   def loginProxy(path: String) = CorsAction {
     Action.async { request =>
       val sfOrg = request.headers.get("SalesforceURL");
-      val prodUrl = "https://".concat(sfOrg);
+      val prodUrl = sfOrg;
       proxyRequestResponse(request, prodUrl).flatMap { result =>
         result.header.status match {
             case _ =>
