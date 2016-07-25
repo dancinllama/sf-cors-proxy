@@ -1,0 +1,3 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/jlo/workspace/sf-cors-proxy/conf/application.conf,/Users/jlo/workspace/sf-cors-proxy/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/jlo/workspace/sf-cors-proxy/conf/routes,/Users/jlo/workspace/sf-cors-proxy/target/scala-2.11/classes/routes)[0m

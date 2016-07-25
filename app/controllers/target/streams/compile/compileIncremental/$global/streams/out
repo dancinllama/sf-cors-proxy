@@ -1,0 +1,154 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/jlo/workspace/sf-cors-proxy/app/controllers/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.11:component from component compiler for Scala 2.10.6[0m
+[0m[[0minfo[0m] [0m'compiler-interface' not yet compiled for Scala 2.10.6. Compiling...[0m
+[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.10.6  with arguments: [0m
+[0m[[0mdebug[0m] [0m	-nowarn[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/var/folders/7m/4sw9n5gj28q1_zrxywwqpsqm0000gn/T/sbt_49c757e6[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/classes:/Users/jlo/.sbt/boot/scala-2.10.6/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/jlo/.sbt/boot/scala-2.10.6/org.scala-sbt/sbt/0.13.11/xsbti/interface-0.13.11.jar:/var/folders/7m/4sw9n5gj28q1_zrxywwqpsqm0000gn/T/sbt_b7d519fc/srcs/org.scala-sbt/compiler-interface/compiler-interface-0.13.11-sources.jar:/Users/jlo/.sbt/boot/scala-2.10.6/lib/scala-compiler.jar:/Users/jlo/.sbt/boot/scala-2.10.6/lib/scala-reflect.jar:/Users/jlo/.sbt/boot/scala-2.10.6/lib/jline.jar:/Users/jlo/.sbt/boot/scala-2.10.6/lib/jansi.jar[0m
+[0m[[0mdebug[0m] [0m	/var/folders/7m/4sw9n5gj28q1_zrxywwqpsqm0000gn/T/sbt_52bfde91/xsbt/API.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/7m/4sw9n5gj28q1_zrxywwqpsqm0000gn/T/sbt_52bfde91/xsbt/Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/7m/4sw9n5gj28q1_zrxywwqpsqm0000gn/T/sbt_52bfde91/xsbt/Command.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/7m/4sw9n5gj28q1_zrxywwqpsqm0000gn/T/sbt_52bfde91/xsbt/Compat.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/7m/4sw9n5gj28q1_zrxywwqpsqm0000gn/T/sbt_52bfde91/xsbt/CompilerInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/7m/4sw9n5gj28q1_zrxywwqpsqm0000gn/T/sbt_52bfde91/xsbt/ConsoleInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/7m/4sw9n5gj28q1_zrxywwqpsqm0000gn/T/sbt_52bfde91/xsbt/DelegatingReporter.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/7m/4sw9n5gj28q1_zrxywwqpsqm0000gn/T/sbt_52bfde91/xsbt/Dependency.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/7m/4sw9n5gj28q1_zrxywwqpsqm0000gn/T/sbt_52bfde91/xsbt/ExtractAPI.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/7m/4sw9n5gj28q1_zrxywwqpsqm0000gn/T/sbt_52bfde91/xsbt/ExtractUsedNames.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/7m/4sw9n5gj28q1_zrxywwqpsqm0000gn/T/sbt_52bfde91/xsbt/LocateClassFile.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/7m/4sw9n5gj28q1_zrxywwqpsqm0000gn/T/sbt_52bfde91/xsbt/Log.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/7m/4sw9n5gj28q1_zrxywwqpsqm0000gn/T/sbt_52bfde91/xsbt/Message.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/7m/4sw9n5gj28q1_zrxywwqpsqm0000gn/T/sbt_52bfde91/xsbt/ScaladocInterface.scala[0m
+[0m[[0minfo[0m] [0m  Compilation completed in 13.9 s[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.11:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 1a526237, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/classes:/Users/jlo/.sbt/boot/scala-2.10.6/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/jlo/workspace/sf-cors-proxy/app/controllers/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:3: not found: object play[0m
+[0m[[31merror[0m] [0mimport play.api.libs.Codecs[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:4: not found: object play[0m
+[0m[[31merror[0m] [0mimport play.api.mvc._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:7: not found: object play[0m
+[0m[[31merror[0m] [0mimport play.api.libs.ws.WS[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:8: not found: object play[0m
+[0m[[31merror[0m] [0mimport play.api.cache.Cache[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:9: not found: object play[0m
+[0m[[31merror[0m] [0mimport play.api.http.HeaderNames[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:10: not found: object play[0m
+[0m[[31merror[0m] [0mimport play.api.Play.current[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:12: not found: type Controller[0m
+[0m[[31merror[0m] [0mobject Application extends Controller {[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:14: not found: type Result[0m
+[0m[[31merror[0m] [0m  private def proxyRequestResponse(request: Request[AnyContent], url: String): Future[Result] = {[0m
+[0m[[31merror[0m] [0m                                                                                      ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:14: not found: type Request[0m
+[0m[[31merror[0m] [0m  private def proxyRequestResponse(request: Request[AnyContent], url: String): Future[Result] = {[0m
+[0m[[31merror[0m] [0m                                            ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:16: not found: value WS[0m
+[0m[[31merror[0m] [0m    val ws = WS.url(url).withMethod(request.method).withHeaders(requestHeaders: _*)[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:18: not found: type AnyContentAsFormUrlEncoded[0m
+[0m[[31merror[0m] [0m      case c: AnyContentAsFormUrlEncoded =>[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:20: not found: type AnyContentAsJson[0m
+[0m[[31merror[0m] [0m      case c: AnyContentAsJson =>[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:22: not found: type AnyContentAsXml[0m
+[0m[[31merror[0m] [0m      case c: AnyContentAsXml =>[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:24: not found: type AnyContentAsText[0m
+[0m[[31merror[0m] [0m      case c: AnyContentAsText =>[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:26: not found: type AnyContentAsRaw[0m
+[0m[[31merror[0m] [0m      case c: AnyContentAsRaw =>[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:82: not found: type ActionBuilder[0m
+[0m[[31merror[0m] [0mobject RequestWithInstance extends ActionBuilder[RequestWithInstance] {[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:38: value async is not a member of object controllers.RequestWithInstance[0m
+[0m[[31merror[0m] [0m  def proxy(path: String) = RequestWithInstance.async { request =>[0m
+[0m[[31merror[0m] [0m                                                ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:69: not found: type Action[0m
+[0m[[31merror[0m] [0mcase class CorsAction[A](action: Action[A]) extends Action[A] {[0m
+[0m[[31merror[0m] [0m                                                    ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:69: not found: type Action[0m
+[0m[[31merror[0m] [0mcase class CorsAction[A](action: Action[A]) extends Action[A] {[0m
+[0m[[31merror[0m] [0m                                 ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:45: not found: value Action[0m
+[0m[[31merror[0m] [0m    Action.async { request =>[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:61: not found: value Action[0m
+[0m[[31merror[0m] [0m    Action { request =>[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:71: not found: type Result[0m
+[0m[[31merror[0m] [0m  def apply(request: Request[A]): Future[Result] = {[0m
+[0m[[31merror[0m] [0m                                         ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:71: not found: type Request[0m
+[0m[[31merror[0m] [0m  def apply(request: Request[A]): Future[Result] = {[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:79: not found: type WrappedRequest[0m
+[0m[[31merror[0m] [0mclass RequestWithInstance[A](val instance: String, request: Request[A]) extends WrappedRequest[A](request)[0m
+[0m[[31merror[0m] [0m                                                                                ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:79: not found: type Request[0m
+[0m[[31merror[0m] [0mclass RequestWithInstance[A](val instance: String, request: Request[A]) extends WrappedRequest[A](request)[0m
+[0m[[31merror[0m] [0m                                                            ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:79: too many arguments for constructor Object: ()Object[0m
+[0m[[31merror[0m] [0mclass RequestWithInstance[A](val instance: String, request: Request[A]) extends WrappedRequest[A](request)[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:83: not found: type Result[0m
+[0m[[31merror[0m] [0m  def invokeBlock[A](request: Request[A], block: (RequestWithInstance[A]) => Future[Result]): Future[Result] = {[0m
+[0m[[31merror[0m] [0m                                                                                                     ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:83: not found: type Request[0m
+[0m[[31merror[0m] [0m  def invokeBlock[A](request: Request[A], block: (RequestWithInstance[A]) => Future[Result]): Future[Result] = {[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:83: not found: type Result[0m
+[0m[[31merror[0m] [0m  def invokeBlock[A](request: Request[A], block: (RequestWithInstance[A]) => Future[Result]): Future[Result] = {[0m
+[0m[[31merror[0m] [0m                                                                                    ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:88: not found: value WS[0m
+[0m[[31merror[0m] [0m        WS.url(url).get().map { response =>[0m
+[0m[[31merror[0m] [0m        ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:103: not found: value Cache[0m
+[0m[[31merror[0m] [0m    def tryCache(auth: String): Future[String] = Cache.getAs[String](Codecs.sha1(auth)).fold(cacheMiss(auth))(Future.successful)[0m
+[0m[[31merror[0m] [0m                                                 ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:105: not found: type Result[0m
+[0m[[31merror[0m] [0m    def makeReq(auth: String): Future[Result] = {[0m
+[0m[[31merror[0m] [0m                                      ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:114: not found: type Action[0m
+[0m[[31merror[0m] [0m  override protected def composeAction[A](action: Action[A]): Action[A] = new CorsAction(action)[0m
+[0m[[31merror[0m] [0m                                                              ^[0m
+[0m[[31merror[0m] [0m/Users/jlo/workspace/sf-cors-proxy/app/controllers/Application.scala:114: not found: type Action[0m
+[0m[[31merror[0m] [0m  override protected def composeAction[A](action: Action[A]): Action[A] = new CorsAction(action)[0m
+[0m[[31merror[0m] [0m                                                  ^[0m
+[0m[[31merror[0m] [0m34 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
